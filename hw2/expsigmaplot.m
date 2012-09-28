@@ -2,6 +2,8 @@ function expsigmaplot()
 
 u = linspace(0,1);
 v = linspace(0,1);
+u = u' ;
+v = v';
 
 A = ExpMatrix(u,v);
 s = svd(A); 
