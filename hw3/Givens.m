@@ -23,5 +23,5 @@ else
     end
 end
 
-ss = s^2 + c^2 ;
-display(ss);
+%ss = s^2 + c^2 ;
+%display(ss);
