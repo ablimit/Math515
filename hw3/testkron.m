@@ -1,5 +1,7 @@
+figureHandle = gcf;
+%# make all text in the figure to size 14 and bold
+set(findall(figureHandle,'type','text'),'fontSize',14);
 k = 1;
-
 t1 =zeros(26,1);
 t2 =zeros(26,1);
 for n = 5:30

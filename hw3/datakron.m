@@ -1,3 +1,7 @@
+
+figureHandle = gcf;
+%# make all text in the figure to size 14 and bold
+set(findall(figureHandle,'type','text'),'fontSize',14);
 load hw3_data;
 n = size (A1,1);
 figure(1), clf ;
