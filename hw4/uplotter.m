@@ -1,4 +1,4 @@
-function plotter(n)
+function uplotter(n)
 
 x = linspace(0,1,n+2);
 % y = linspace(0,1,n+2);
